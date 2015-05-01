@@ -14,6 +14,9 @@
 		A4979ED51AF35D3A009551FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4979ED41AF35D3A009551FB /* Images.xcassets */; };
 		A4979ED81AF35D3A009551FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4979ED61AF35D3A009551FB /* LaunchScreen.xib */; };
 		A4979EE41AF35D3A009551FB /* TestHMsegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4979EE31AF35D3A009551FB /* TestHMsegTests.m */; };
+		A4979EF01AF36649009551FB /* 收支明细-下拉-3_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A4979EED1AF36649009551FB /* 收支明细-下拉-3_03.png */; };
+		A4979EF11AF36649009551FB /* 收支明细-下拉-4_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A4979EEE1AF36649009551FB /* 收支明细-下拉-4_03.png */; };
+		A4979EF21AF36649009551FB /* 收支明细-下拉-6_03.png in Resources */ = {isa = PBXBuildFile; fileRef = A4979EEF1AF36649009551FB /* 收支明细-下拉-6_03.png */; };
 		F3BE90A502BCBD42A5F7E841 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EDAD2BE5037E7CDDED183C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +47,9 @@
 		A4979EDD1AF35D3A009551FB /* TestHMsegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHMsegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4979EE21AF35D3A009551FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4979EE31AF35D3A009551FB /* TestHMsegTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestHMsegTests.m; sourceTree = "<group>"; };
+		A4979EED1AF36649009551FB /* 收支明细-下拉-3_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收支明细-下拉-3_03.png"; sourceTree = "<group>"; };
+		A4979EEE1AF36649009551FB /* 收支明细-下拉-4_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收支明细-下拉-4_03.png"; sourceTree = "<group>"; };
+		A4979EEF1AF36649009551FB /* 收支明细-下拉-6_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收支明细-下拉-6_03.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		A4979EC61AF35D3A009551FB /* TestHMseg */ = {
 			isa = PBXGroup;
 			children = (
+				A4979EED1AF36649009551FB /* 收支明细-下拉-3_03.png */,
+				A4979EEE1AF36649009551FB /* 收支明细-下拉-4_03.png */,
+				A4979EEF1AF36649009551FB /* 收支明细-下拉-6_03.png */,
 				A4979ECB1AF35D3A009551FB /* AppDelegate.h */,
 				A4979ECC1AF35D3A009551FB /* AppDelegate.m */,
 				A4979ECE1AF35D3A009551FB /* ViewController.h */,
@@ -227,7 +236,10 @@
 			files = (
 				A4979ED31AF35D3A009551FB /* Main.storyboard in Resources */,
 				A4979ED81AF35D3A009551FB /* LaunchScreen.xib in Resources */,
+				A4979EF21AF36649009551FB /* 收支明细-下拉-6_03.png in Resources */,
+				A4979EF11AF36649009551FB /* 收支明细-下拉-4_03.png in Resources */,
 				A4979ED51AF35D3A009551FB /* Images.xcassets in Resources */,
+				A4979EF01AF36649009551FB /* 收支明细-下拉-3_03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

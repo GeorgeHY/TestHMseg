@@ -24,13 +24,18 @@
 {
     CGFloat viewWidth = CGRectGetWidth(self.view.frame);
     self.segmentedControl = [[HMSegmentedControl alloc]initWithFrame:CGRectMake(0, 64, viewWidth, 50)];
+    self.segmentedControl.type = HMSegmentedControlTypeTextImages;
     self.segmentedControl.sectionTitles = @[@"接单消息",@"发单消息",@"系统消息"];
+    UIImage * image1 = [UIImage imageNamed:@"收支明细-下拉-3_03"];
+    UIImage * image2 = [UIImage imageNamed:@"收支明细-下拉-4_03"];
+    UIImage * image3 = [UIImage imageNamed:@"收支明细-下拉-6_03"];
+    self.segmentedControl.sectionImages = @[image1,image2,image3];
     self.segmentedControl.selectedSegmentIndex = 1;
     self.segmentedControl.backgroundColor = [UIColor whiteColor];
     self.segmentedControl.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor blackColor]};
     self.segmentedControl.selectedTitleTextAttributes = @{NSForegroundColorAttributeName : [UIColor orangeColor]};
     self.segmentedControl.selectionIndicatorColor = [UIColor orangeColor];
-    self.segmentedControl.selectionStyle = HMSegmentedControlSelectionStyleFullWidthStripe;
+    self.segmentedControl.selectionStyle = HMSegmentedControlSelectionStyleBox;
     self.segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
     self.segmentedControl.tag = 3;
     __weak typeof(self) weakSelf = self;
